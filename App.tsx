@@ -64,11 +64,10 @@ const Separator = () => {
     
   const [date, setDate] = useState(new Date());
   let startingDate = date
-  startingDate.setUTCHours(0,0,0,0)
-
+  startingDate.setHours(0,0,0,0)
   let endingDate = new Date(startingDate);
   endingDate.setDate(endingDate.getDate() + 1)
-  endingDate.setUTCHours(0,0,0,0)
+  endingDate.setHours(0,0,0,0)
 
   let HeartRateOptions = {
   
@@ -166,7 +165,9 @@ const saveName = ({name, navigation}) => {
  /* Permission options */
  const permissions = {
    permissions: {
-     read: [AppleHealthKit.Constants.Permissions.HeartRate, AppleHealthKit.Constants.Permissions.Steps, AppleHealthKit.Constants.Permissions.StepCount, AppleHealthKit.Constants.Permissions.RestingHeartRate]  
+     read: [AppleHealthKit.Constants.Permissions.HeartRate, AppleHealthKit.Constants.Permissions.Steps, 
+      AppleHealthKit.Constants.Permissions.StepCount, 
+      AppleHealthKit.Constants.Permissions.RestingHeartRate]  
    },
  } as HealthKitPermissions
  

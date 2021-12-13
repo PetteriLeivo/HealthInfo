@@ -16,7 +16,7 @@ const StepsForTheday = (props) =>
     const permissionGranted = props.permissionGranted
     const [thisDayStepCount, setThisDayStepCount] = useState(0);
     let aloitusPVM = props.date
-    aloitusPVM.setUTCHours(0,0,0,0)
+    aloitusPVM.setHours(0,0,0,0)
     
     let StepsOptions = {
         date: aloitusPVM.toISOString()

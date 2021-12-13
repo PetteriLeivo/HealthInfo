@@ -39,7 +39,7 @@ const HeartRateInfo = (props) => {
         <React.Fragment>
           <Text style={styles.dateTitle}>Päivämäärä {date.toLocaleDateString('fi')}</Text>
           <View style={styles.separator}></View>
-          <Text style={styles.heartRateInfoText}>Viimeisin syke {latestHeartRate}</Text>
+          <Text style={styles.heartRateInfoText}>Viimeisin syke {Math.round(latestHeartRate)}</Text>
           <View style={styles.separator}></View>
           <AverageHeartRate pulses={pulses} />
           <View style={styles.separator}></View>
@@ -76,13 +76,13 @@ const AverageHeartRate = (props) => {
       <React.Fragment>
         <Text style={styles.heartRateInfoText}>Sykekeskiarvo {(Math.round(sumOfPulseValues / pulses.length))}</Text>
         <View style={styles.separator}></View>
-        <Text style={styles.heartRateInfoText}>Sykettä mitattu yhteensä {pulses.length} kertaa </Text>
+        <Text style={styles.heartRateInfoText}>Sykervoja yhteensä {pulses.length} kappaletta </Text>
       </React.Fragment>
     )
 
   }
   return (
-    <Text style={styles.heartRateInfoText}>Sykekeskiarvo {pulses[0]}</Text>
+    <Text style={styles.heartRateInfoText}>Sykekeskiarvo {Math.round(pulses[0])}</Text>
   )
 
 }

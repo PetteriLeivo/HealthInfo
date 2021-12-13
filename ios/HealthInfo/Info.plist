@@ -36,11 +36,11 @@
 		</dict>
 	</dict>
 	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
-	<string>Read and understand clinical health data.</string>
+	<string>Lukea ja ymmärtää kliinistä terveysdataa.</string>
 	<key>NSHealthShareUsageDescription</key>
-	<string>Read and understand health data.</string>
+	<string>Lukea ja ymmärtää terveysdataa.</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>Share workout data with other apps.</string>
+	<string>Jakaa urheilusuoritusten dataa muiden sovelluksien kannsa.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

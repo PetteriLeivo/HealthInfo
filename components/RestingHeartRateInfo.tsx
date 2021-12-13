@@ -35,7 +35,7 @@ const RestingHeartRate = (props) => {
 
         if (latestRestingHeartRate != 0) {
             return (
-                <Text style={styles.heartRateInfoText}>Päivän viimeisin leposykkeesi oli {latestRestingHeartRate}</Text>
+                <Text style={styles.heartRateInfoText}>Päivän uusin leposykkeesi on {latestRestingHeartRate}</Text>
 
 
 
