@@ -90,10 +90,10 @@ const Separator = () => {
     <SetDate date={date} setDate={setDate}/>
     <HeartRateInfo permissionGranted={route.params.permissionGranted} date={date} options={HeartRateOptions} />
     <Separator/>
-    <StepsInfo permissionGranted={route.params.permissionGranted} date={date}/>
-    <Separator/>
     <RestingHeartRateInfo permissionGranted={route.params.permissionGranted} date={date} options={HeartRateOptions}/>
     <Separator/>
+    <Separator/>
+    <StepsInfo permissionGranted={route.params.permissionGranted} date={date}/>
     </View>
     </ScrollView>
     </View>

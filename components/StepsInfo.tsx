@@ -38,13 +38,13 @@ const StepsForTheday = (props) =>
   if (thisDayStepCount != 0) {
   return (
     
-    <Text style={styles.heartRateInfoText}>Tämän päivän askeleet {Math.round(thisDayStepCount)}</Text>
+    <Text style={styles.heartRateInfoText}>Päivän askeleet {Math.round(thisDayStepCount)}</Text>
     
     );
   }
   else {
     return (
-      <Text style={styles.heartRateInfoText}>Tänään ei ole tullut askelia</Text>
+      <Text style={styles.heartRateInfoText}>Päivältä ei askeltietoja</Text>
     )
   }
 }
