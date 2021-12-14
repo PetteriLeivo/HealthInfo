@@ -38,7 +38,7 @@ const StepsForTheday = (props) =>
   if (thisDayStepCount != 0) {
   return (
     
-    <Text style={styles.heartRateInfoText}>Päivän askeleet {Math.round(thisDayStepCount)}</Text>
+    <Text style={styles.heartRateInfoText}>Päivän askeleet: {Math.round(thisDayStepCount)}</Text>
     
     );
   }
