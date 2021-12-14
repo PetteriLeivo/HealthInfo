@@ -39,7 +39,7 @@ const HeartRateInfo = (props) => {
         <React.Fragment>
           <Text style={styles.dateTitle}>Päivämäärä {date.toLocaleDateString('fi')}</Text>
           <View style={styles.separator}></View>
-          <Text style={styles.heartRateInfoText}>Päivän uusin syke {Math.round(latestHeartRate)}</Text>
+          <Text style={styles.heartRateInfoText}>Päivän uusin syke: {Math.round(latestHeartRate)}</Text>
           <View style={styles.separator}></View>
           <AverageHeartRate pulses={pulses} />
           <View style={styles.separator}></View>
