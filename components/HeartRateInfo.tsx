@@ -76,7 +76,7 @@ const AverageHeartRate = (props) => {
       <React.Fragment>
         <Text style={styles.heartRateInfoText}>Päivän sykekeskiarvo {(Math.round(sumOfPulseValues / pulses.length))}</Text>
         <View style={styles.separator}></View>
-        <Text style={styles.heartRateInfoText}>Päivän sykervoja yhteensä {pulses.length} kappaletta </Text>
+        <Text style={styles.heartRateInfoText}>Päivän sykearvoja yhteensä {pulses.length} kappaletta </Text>
       </React.Fragment>
     )
 
