@@ -6,10 +6,6 @@ Inside project folder
 
 npm install
 
-cd ios
-
-cd ..
-
 pod install
 
 npx react-native run-ios
