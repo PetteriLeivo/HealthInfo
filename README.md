@@ -13,3 +13,5 @@ pod install
 cd ..
 
 npx react-native run-ios
+
+![](pictures/heartrate.png)
