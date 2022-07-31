@@ -13,5 +13,6 @@ pod install
 cd ..
 
 npx react-native run-ios
-
-![](pictures/heartrate.png)
+![](pictures/permissions.PNG)
+![](pictures/mainscreen.PNG)
+![](pictures/heartrate.PNG)
