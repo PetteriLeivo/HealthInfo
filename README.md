@@ -1,6 +1,6 @@
 # HealthInfo
 
-To install and run on Mac:
+To install and run on iPhone emulator or real device:
 
 Inside project folder
 
